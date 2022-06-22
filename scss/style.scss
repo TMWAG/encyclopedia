@@ -1,0 +1,34 @@
+$primary: rgba( 1, 21, 38, .8);
+$secondary: rgb(1, 46, 64);
+$light: rgba(2, 89, 89, .8);
+$info: rgb(3, 140, 101);
+$dropdown-dark-bg: $secondary;
+$list-group-bg: $primary;
+$list-group-color: $info;
+$list-group-border-color: rgba($light, .125);
+$offcanvas-bg-color: $primary;
+$accordion-bg: $secondary;
+$accordion-button-bg: $secondary;
+$accordion-color: $info;
+$component-active-bg: $light;
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url('/img/bgs/DRG_Background_2160p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    width: 7vw;
+    height: auto;    
+}
+@import "../libs/node_modules/bootstrap/scss/bootstrap.scss";
+hr{
+	color: $info;
+}
+.card-img-top{
+    height: auto;
+    width: 5vw;
+}

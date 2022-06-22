@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    },
+    "require": {
+        "tinymce/tinymce": "^6.0"
+    }
+}
