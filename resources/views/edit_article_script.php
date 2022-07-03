@@ -9,7 +9,7 @@ if($_POST){
             $article_body = addslashes($_POST['article_body']);
             $article_id = addslashes($_POST['article_id']);
             $db = new Database();
-            $query = "UPDATE articles SET category = '{$article_category}', text = '{$article_body}' WHERE id = '{$article_id}'";
+            $query = "UPDATE articles SET category = '{$article_category}', text = '{$article_body}', title = '{$article_title}' WHERE id = '{$article_id}'";
             $db->query($query);
         }
     }

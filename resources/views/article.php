@@ -11,18 +11,28 @@ $comments = $db_articles->all_res("SELECT * FROM comments WHERE article = '{$_GE
 ?>
 <div class="container rounded bg-primary gy-5 p-2 bg-opacity-75 border-secondary border-2 my-5" style="min-height: 60vh;">
     <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2">
-        <div class="text-white card-header d-flex align-items-center justify-content-between">
-            <h1 class="fs-2">
-                <?=$article_info[1]?>
-            </h1>
-            <span class="fs-5">
-                Категория: <?=$category_info[0]?>
-            </span>
-            <?php
-                if(($_SESSION['usr']['login'] == $author_info[1]) || ($_SESSION['usr']['role'] >= 2)){
-                    echo"<a href=\"edit_article?id={$_GET['id']}\" class=\"btn btn-secondary\">Редактировать статью</a>";
-                }
-            ?>
+        <div class="text-white card-header">
+            <div class="row align-items-center text-center justify-content-center g-2">
+                <div class="col-md-6 col-12">
+                    <h1 class="fs-2">
+                        <?=$article_info[1]?>
+                    </h1>
+                </div>
+                <div class="col-md-4 col-7">
+                    <span class="fs-5">
+                        Категория: <?=$category_info[0]?>
+                    </span>
+                </div>
+                <div class="col-md-2 col-5">
+                    <?php
+                        if(($_SESSION['usr']['login'] == $author_info[1]) || ($_SESSION['usr']['role'] >= 2)){
+                            echo"<a href=\"edit_article?id={$_GET['id']}\" class=\"btn btn-secondary\">Редактировать</a>";
+                        }
+                    ?>
+                </div>
+                
+            </div>
+            
         </div>
         <div class="card-body text-white">
             <p class="text-center fs-4 text-wrap mb-0">
@@ -48,13 +58,13 @@ $comments = $db_articles->all_res("SELECT * FROM comments WHERE article = '{$_GE
         if ($_SESSION['usr']){ ?>
         <form action="add_comment" method="POST">
             <div class="row g-2 m-1">
-                <div class="col-10">
+                <div class="col-8 col-md-10">
                     <input type="text" class="form-control" name="comment_text" autocomplete="off">
                     <input type="hidden" name="user_id" value="<?=$_SESSION['usr']['id']?>">
                     <input type="hidden" name="article_id" value="<?=$_GET['id']?>">
                 </div>
-                <div class="col-2">
-                    <input type="submit" class="btn btn-secondary" value="Оставить комментарий">
+                <div class="col-4 col-md-2">
+                    <input type="submit" class="btn btn-secondary" value="Отправить">
                 </div>
             </div>
         </form>

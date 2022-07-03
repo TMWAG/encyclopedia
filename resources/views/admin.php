@@ -17,7 +17,7 @@ require_once getcwd()."/php/templates/header.php";
                     $admin_users = $admin_db->all_res("SELECT * FROM users WHERE NOT login = '{$_SESSION['usr']['login']}'");
                     $admin_roles = $admin_db->all_res("SELECT * FROM users_role");
                     foreach($admin_users as $user){?>
-                        <div class="col-3">
+                        <div class="col-12 col-md-3">
                             <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2" style="min-height: 20vh">
                                 <div class="card-header fs-4 text-center">
                                     <a href="/user?id=<?=$user[0]?>" class="text-info "><?=$user[1]?></a> 

@@ -23,140 +23,210 @@ require_once getcwd()."/php/templates/header.php";
             </div>
             <div class="row g-2">
                 <div class="col-12">
-                    <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2 p-1">
-                        <div class="card-body text-white">
+                    <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2 p-3">
+                        <div class="card-body text-white p-0">
                             <h2 class="text-center fs-3">
                                 Основы
                             </h2>
                             <hr>
-                            <div class="container p-0 d-flex justify-content-evenly">
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=7" class="card-body d-flex align-items-end justify-content-center flex-wrap ">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Icon_Map_Spacerig.webp" alt="Космическая станция">
-                                        <span class="card-text text-center link-info">Космическая<br>Станция </span>
-                                    </a>
+                            <div class="row align-items-center justify-content-center g-2">
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=7" class="p-0 d-flex align-items-end justify-content-center flex-wrap ">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Icon_Map_Spacerig.webp" alt="Космическая станция">
+                                                <span class="card-text text-wrap text-center link-info">Космическая Станция </span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=8" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Skin_bulldog_default.webp" alt="Экипировка">
-                                        <span class="card-text text-center link-info">Экипировка</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=8" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Skin_bulldog_default.webp" alt="Экипировка">
+                                                <span class="card-text text-center link-info">Экипировка</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=9" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Mining_expedition_icon.webp" alt="Миссии">
-                                        <span class="card-text text-center link-info">Миссии</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=9" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Mining_expedition_icon.webp" alt="Миссии">
+                                                <span class="card-text text-center link-info">Миссии</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2 ">
-                                    <a href="/article?id=10" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Hoxxes.webp" alt="Хоксесс">
-                                        <span class="card-text text-center link-info">Хоксесс</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2 ">
+                                        <div class="card-body">
+                                            <a href="/article?id=10" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Hoxxes.webp" alt="Хоксесс">
+                                                <span class="card-text text-center link-info">Хоксесс</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=11" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Glyphid_swarmer.webp" alt="Существа">
-                                        <span class="card-text text-center link-info">Существа</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=11" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Glyphid_swarmer.webp" alt="Существа">
+                                                <span class="card-text text-center link-info">Существа</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=12" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Morkite_icon.webp" alt="Ресурсы">
-                                        <span class="card-text text-center link-info">Ресурсы</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=12" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Morkite_icon.webp" alt="Ресурсы">
+                                                <span class="card-text text-center link-info">Ресурсы</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=13" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Frontpage_perks.webp" alt="Перки">
-                                        <span class="card-text text-center link-info">Перки</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=13" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Frontpage_perks.webp" alt="Перки">
+                                                <span class="card-text text-center link-info">Перки</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=14" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/basics/Icon_Accessory.webp" alt="Аксессуары">
-                                        <span class="card-text text-center link-info">Аксессуары</span>
-                                    </a>
+                                <div class="col-md-2 col-6">
+                                    <div class="card bg-primary bg-opacity-10 mb-2">
+                                        <div class="card-body">
+                                            <a href="/article?id=14" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/basics/Icon_Accessory.webp" alt="Аксессуары">
+                                                <span class="card-text text-center link-info">Аксессуары</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <hr>
-                            <div class="container p-0 d-inline-flex justify-content-evenly">
-                                <a href="/article?id=15" class="link-info ">Как играть</a>
-                                <a href="/article?id=16" class="link-info ">Требования</a>
-                                <a href="/article?id=17" class="link-info ">История обновлений</a>
+                            <div class="row align-items-center justify-content-center g-2">
+                                <div class="col-12 col-md-4 text-center">
+                                    <a href="/article?id=15" class="link-info">Как играть</a>
+                                </div>
+                                <div class="col-12 col-md-4 text-center">
+                                    <a href="/article?id=16" class="link-info">Требования</a>
+                                </div>
+                                <div class="col-12 col-md-4 text-center">
+                                    <a href="/article?id=17" class="link-info">История обновлений</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row g-2">  
-                <div class="col-6 ">
-                    <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2 p-3">
-                        <div class="card-body text-white ">
+                <div class="col-12 col-md-6">
+                    <div class="card bg-primary bg-opacity-75 border-secondary border-2 p-3">
+                        <div class="card-body text-white p-0">
                             <h2 class="text-center fs-3">
                                 Гномы
                             </h2>
                             <hr>
-                            <div class="container p-0 d-flex justify-content-evenly">
-                                <div class="card bg-primary bg-opacity-10">
-                                    <a href="/article?id=6" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap my-3">
-                                        <img class="card-img-top" src="/img/pics/mainPage/dwarves/Driller_icon.webp" alt="Бурильщик">
-                                        <span class="card-text text-center link-info">Бурильщик</span>
-                                    </a>
+                            <div class="row align-items-center justify-content-center g-2">
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=6" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/dwarves/Driller_icon.webp" alt="Бурильщик">
+                                                <span class="card-text text-center link-info">Бурильщик</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10">
-                                    <a href="/article?id=18" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap my-3">
-                                        <img class="card-img-top" src="/img/pics/mainPage/dwarves/Engineer_icon.webp" alt="Инженер">
-                                        <span class="card-text text-center link-info">Инженер</span>
-                                    </a>
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=18" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/dwarves/Engineer_icon.webp" alt="Инженер">
+                                                <span class="card-text text-center link-info">Инженер</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10">
-                                    <a href="/article?id=19" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap my-3">
-                                        <img class="card-img-top" src="/img/pics/mainPage/dwarves/Gunner_icon.webp" alt="Стрелок">
-                                        <span class="card-text text-center link-info">Стрелок</span>
-                                    </a>
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=19" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/dwarves/Gunner_icon.webp" alt="Стрелок">
+                                                <span class="card-text text-center link-info">Стрелок</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10">
-                                    <a href="/article?id=20" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap my-3">
-                                        <img class="card-img-top" src="/img/pics/mainPage/dwarves/Scout_icon.webp" alt="Разведчик">
-                                        <span class="card-text text-center link-info">Разведчик</span>
-                                    </a>
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=20" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/dwarves/Scout_icon.webp" alt="Разведчик">
+                                                <span class="card-text text-center link-info">Разведчик</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2 p-3">
-                        <div class="card-body text-white ">
+                        <div class="card-body text-white p-0">
                             <h2 class="text-center fs-3">
                                 Продвинутое
                             </h2>
                             <hr>
-                            <div class="container p-0 d-flex justify-content-evenly">
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=21" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/advanced/Assignment_Icon.webp" alt="Поручения">
-                                        <span class="card-text text-center link-info">Поручения</span>
-                                    </a>
+                            <div class="row align-items-center justify-content-center g-2">
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=21" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/advanced/Assignment_Icon.webp" alt="Поручения">
+                                                <span class="card-text text-center link-info">Поручения</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=22" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/advanced/Icon_Promotion_StarGold.webp" alt="Повышения">
-                                        <span class="card-text text-center link-info">Повышения</span>
-                                    </a>
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=22" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/advanced/Icon_Promotion_StarGold.webp" alt="Повышения">
+                                                <span class="card-text text-center link-info">Повышения</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=23" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/advanced/DeepDive_Icon.webp" alt="Глубокие Погружения">
-                                        <span class="card-text text-center link-info">Глубокие<br>Погружения</span>
-                                    </a>
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=23" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/advanced/DeepDive_Icon.webp" alt="Глубокие Погружения">
+                                                <span class="card-text text-center link-info">Глубокие<br>Погружения</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card bg-primary bg-opacity-10 mb-2">
-                                    <a href="/article?id=24" class="card-body d-flex align-items-end align-self-center justify-content-center flex-wrap">
-                                        <img class="card-img-top" src="/img/pics/mainPage/advanced/Frame_Overclock_Balanced.webp" alt="Разгонные Модули">
-                                        <span class="card-text text-center link-info">Разгонные<br>Модули</span>
-                                    </a>
+                                <div class="col-6 col-md-3">
+                                    <div class="card bg-primary bg-opacity-10">
+                                        <div class="card-body">
+                                            <a href="/article?id=24" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                                <img class="card-img" src="/img/pics/mainPage/advanced/Frame_Overclock_Balanced.webp" alt="Разгонные Модули">
+                                                <span class="card-text text-center link-info">Разгонные<br>Модули</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +258,7 @@ require_once getcwd()."/php/templates/header.php";
         <div class="col-lg-3 col-sm-12">
             <div class="row">
                 <div class="col-12">
-                    <div class="card bg-primary bg-opacity-75 border-2 border-secondary text-white bg-primary mb-2">
+                    <div class="card bg-primary bg-opacity-75 border-2 border-secondary text-white mb-2">
                         <div class="card-body">
                             <h2 class="text-center fs-3">
                                 Обновления

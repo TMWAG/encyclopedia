@@ -15,14 +15,14 @@ $role = $db->first_res("SELECT * FROM users_role WHERE id = '{$user_info[4]}'");
     </h1>
     <hr>
     <div class="row g-2 m-1">
-        <div class="col-4">
+        <div class="col-12 col-md-4">
             <div class="card bg-primary text-center text-wrap text-white bg-opacity-75 border-secondary border-2 mb-2">
                 <div class="card-body text-center text-white">
                     <h2 class="fs-3">
                         Информация об аккаунте
                     </h2>
                     <hr>
-                    <img class="card-img mx-auto rounded border-secondary d-block" src="/img/pfp/<?=$user_info[5]?>" alt="Картинка профиля пользователя <?=$user_info[1]?>" style="max-height: 30vh; width: auto;">
+                    <img class="card-img mx-auto rounded border-secondary d-block" src="/img/pfp/<?=$user_info[5]?>" alt="Картинка профиля пользователя <?=$user_info[1]?>" style="height: auto; min-width: 20vw;">
                     <ul class="list-group my-2">
                         <li class="list-group-item">Дата регистрации: <?=$user_info[6]?></li>
                         <li class="list-group-item">Написано статей: <?=$article_count?></li>
@@ -60,7 +60,7 @@ $role = $db->first_res("SELECT * FROM users_role WHERE id = '{$user_info[4]}'");
                 </div>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-12 col-md-8">
             <div class="card bg-primary text-center text-wrap text-white bg-opacity-75 border-secondary border-2 mb-2">
                 <div class="card-body text-center text-white">
                     <h2 class="fs-3">
