@@ -6,7 +6,7 @@ require_once getcwd()."/php/templates/header.php";
 <article class="container col-12 rounded bg-primary gy-5 p-2 bg-opacity-75 border-secondary border-2 my-5">
     <div class="row g-2">
         <div class="col-lg-9 col-sm-12 ">
-            <div class="row g-2">
+            <div class="row align-items-center justify-content-center g-2">
                 <div class="col-12 ">
                     <div class="card bg-primary bg-opacity-75 border-secondary border-2 mb-2">
                         <div class="card-body text-white">
@@ -32,7 +32,7 @@ require_once getcwd()."/php/templates/header.php";
                             <div class="row align-items-center justify-content-center g-2">
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
-                                        <div class="card-body">
+                                        <div class="card-body ">
                                             <a href="/article?id=7" class="p-0 d-flex align-items-end justify-content-center flex-wrap ">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Icon_Map_Spacerig.webp" alt="Космическая станция">
                                                 <span class="card-text text-wrap text-center link-info">Космическая Станция </span>
@@ -43,7 +43,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
                                         <div class="card-body">
-                                            <a href="/article?id=8" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=8" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Skin_bulldog_default.webp" alt="Экипировка">
                                                 <span class="card-text text-center link-info">Экипировка</span>
                                             </a>
@@ -53,7 +53,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
                                         <div class="card-body">
-                                            <a href="/article?id=9" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=9" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Mining_expedition_icon.webp" alt="Миссии">
                                                 <span class="card-text text-center link-info">Миссии</span>
                                             </a>
@@ -63,7 +63,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2 ">
                                         <div class="card-body">
-                                            <a href="/article?id=10" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=10" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Hoxxes.webp" alt="Хоксесс">
                                                 <span class="card-text text-center link-info">Хоксесс</span>
                                             </a>
@@ -73,7 +73,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
                                         <div class="card-body">
-                                            <a href="/article?id=11" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=11" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Glyphid_swarmer.webp" alt="Существа">
                                                 <span class="card-text text-center link-info">Существа</span>
                                             </a>
@@ -83,7 +83,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
                                         <div class="card-body">
-                                            <a href="/article?id=12" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=12" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Morkite_icon.webp" alt="Ресурсы">
                                                 <span class="card-text text-center link-info">Ресурсы</span>
                                             </a>
@@ -93,7 +93,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
                                         <div class="card-body">
-                                            <a href="/article?id=13" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=13" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Frontpage_perks.webp" alt="Перки">
                                                 <span class="card-text text-center link-info">Перки</span>
                                             </a>
@@ -103,7 +103,7 @@ require_once getcwd()."/php/templates/header.php";
                                 <div class="col-md-2 col-6">
                                     <div class="card bg-primary bg-opacity-10 mb-2">
                                         <div class="card-body">
-                                            <a href="/article?id=14" class="p-0 d-flex align-items-end align-self-center justify-content-center flex-wrap">
+                                            <a href="/article?id=14" class="p-0 d-flex align-items-end justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/basics/Icon_Accessory.webp" alt="Аксессуары">
                                                 <span class="card-text text-center link-info">Аксессуары</span>
                                             </a>
@@ -128,9 +128,9 @@ require_once getcwd()."/php/templates/header.php";
                 </div>
             </div>
             <div class="row g-2">  
-                <div class="col-12 col-md-6">
-                    <div class="card bg-primary bg-opacity-75 border-secondary border-2 p-3">
-                        <div class="card-body text-white p-0">
+                <div class="col-12 col-md-6 ">
+                    <div class="card bg-primary bg-opacity-75 border-secondary border-2 pb-4">
+                        <div class="card-body text-white">
                             <h2 class="text-center fs-3">
                                 Гномы
                             </h2>
@@ -138,7 +138,7 @@ require_once getcwd()."/php/templates/header.php";
                             <div class="row align-items-center justify-content-center g-2">
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=6" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/dwarves/Driller_icon.webp" alt="Бурильщик">
                                                 <span class="card-text text-center link-info">Бурильщик</span>
@@ -148,7 +148,7 @@ require_once getcwd()."/php/templates/header.php";
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=18" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/dwarves/Engineer_icon.webp" alt="Инженер">
                                                 <span class="card-text text-center link-info">Инженер</span>
@@ -158,7 +158,7 @@ require_once getcwd()."/php/templates/header.php";
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=19" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/dwarves/Gunner_icon.webp" alt="Стрелок">
                                                 <span class="card-text text-center link-info">Стрелок</span>
@@ -168,7 +168,7 @@ require_once getcwd()."/php/templates/header.php";
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=20" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/dwarves/Scout_icon.webp" alt="Разведчик">
                                                 <span class="card-text text-center link-info">Разведчик</span>
@@ -190,7 +190,7 @@ require_once getcwd()."/php/templates/header.php";
                             <div class="row align-items-center justify-content-center g-2">
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=21" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/advanced/Assignment_Icon.webp" alt="Поручения">
                                                 <span class="card-text text-center link-info">Поручения</span>
@@ -200,7 +200,7 @@ require_once getcwd()."/php/templates/header.php";
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=22" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/advanced/Icon_Promotion_StarGold.webp" alt="Повышения">
                                                 <span class="card-text text-center link-info">Повышения</span>
@@ -210,7 +210,7 @@ require_once getcwd()."/php/templates/header.php";
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=23" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/advanced/DeepDive_Icon.webp" alt="Глубокие Погружения">
                                                 <span class="card-text text-center link-info">Глубокие<br>Погружения</span>
@@ -220,7 +220,7 @@ require_once getcwd()."/php/templates/header.php";
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="card bg-primary bg-opacity-10">
-                                        <div class="card-body">
+                                        <div class="card-body p-0">
                                             <a href="/article?id=24" class="d-flex align-items-end align-self-center justify-content-center flex-wrap">
                                                 <img class="card-img" src="/img/pics/mainPage/advanced/Frame_Overclock_Balanced.webp" alt="Разгонные Модули">
                                                 <span class="card-text text-center link-info">Разгонные<br>Модули</span>
